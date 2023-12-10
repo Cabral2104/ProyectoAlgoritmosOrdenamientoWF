@@ -779,42 +779,6 @@ namespace ProyectoAlgoritmosOrdenamientoWF
 
         //MEZCLANATURAL
 
-        // Evento del botón para insertar un valor
-        //private void BtnInsertarMezclaNatural_Click(object sender, EventArgs e)
-        //{
-        //    int value;
-
-        //    // Verifica si el valor ingresado es un número válido
-        //    if (int.TryParse(txtValorInsertarMezclaNatural.Text, out value))
-        //    {
-        //        mezclaNatural.InsertValue(value);
-        //        MostrarListaEnListBoxMezclaNatural(lstAntesOrdenarMezclaNatural, mezclaNatural.GetArray());
-        //        txtValorInsertarMezclaNatural.Clear();
-        //    }
-        //    else
-        //    {
-        //        MessageBox.Show("Por favor, ingrese un valor numérico válido.");
-        //    }
-        //}
-
-        // Evento del botón para ordenar
-        //private void BtnOrdenarMezclaNatural_Click(object sender, EventArgs e)
-        //{
-        //    // Inicia el proceso de ordenamiento
-        //    mezclaNatural.Sort();
-
-        //    // Muestra el resultado en ListBox
-        //    MostrarListaEnListBoxMezclaNatural(lstDespuesOrdenarMezclaNatural, mezclaNatural.GetArray());
-        //}
-
-        // Evento del botón para limpiar
-        //private void BtnLimpiarMezclaNatural_Click(object sender, EventArgs e)
-        //{
-        //    mezclaNatural = new MezclaNatural();
-        //    LimpiarListBoxMezclaNatural(lstAntesOrdenarMezclaNatural);
-        //    LimpiarListBoxMezclaNatural(lstDespuesOrdenarMezclaNatural);
-        //}
-
         // Método para limpiar un ListBox asociado a Mezcla Natural
         private void LimpiarListBoxMezclaNatural(ListBox listBox)
         {
